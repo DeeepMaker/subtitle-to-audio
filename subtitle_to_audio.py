@@ -50,7 +50,7 @@ if __name__ == "__main__":
   arg_parser = argparse.ArgumentParser()
   arg_parser.add_argument("-p", "--path", help="subtitle file path", required=True)
   arg_parser.add_argument("-r", "--rate", help="speech rate(words per minute)", type=int, default=150)
-  arg_parser.add_argument("-v", "--voice_idx", help="voice selection", type=int, default=0, choices=[0, 1])
+  arg_parser.add_argument("-v", "--voice-idx", help="voice selection", type=int, default=0, choices=[0, 1])
   
   args = arg_parser.parse_args()
   
